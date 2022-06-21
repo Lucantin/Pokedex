@@ -1,6 +1,8 @@
-import React, {useState} from "react";
+import React, {useContext, useState} from "react";
+import FavoritesContext from "../contexts/favoritesContext";
 
 const SearchBar = ( props ) => {
+    const { favoritePokemon } = useContext(FavoritesContext);
     const [search, setSearch] = useState("dito");
     const { onSearch } = props
     const onChangeHandler = (e) => {
@@ -22,6 +24,7 @@ const SearchBar = ( props ) => {
             <div className="search-btn">
                 <button onClick={onButtonClickHandler}>Buscar</button>
             </div>
+            <div className="heart-fav">{favoritePokemon.length}❤️</div>
         </div>
     )
 }

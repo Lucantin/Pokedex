@@ -86,11 +86,11 @@ const updateFavoritePokemons = (name) => {
       updateFavoritePokemons: updateFavoritePokemons,
     }} 
     >
-    <div className="teste">
+    <div>
       <Navbar />
       <SearchBar onSearch={onSearchHandler}/>
       {notFound ? (
-        <div className="not-found-text">Não encontrado</div>
+        <div className="not-found-text"><h4>Pokémon não encontrado</h4></div>
       ) : (
       <Pokedex 
         pokemons={pokemons} 
