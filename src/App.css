@@ -131,7 +131,13 @@ nav {
 .page-count{
   margin-left: 10px;
   margin-right: 10px;
-}
+  background-color: #0e6f9f;
+  border: none;
+  border-radius: 10px;
+  height: 15px;
+  color: white;
+  padding: 10px 12px;
+  }
 
 .pokemon-heart-btn {
   border: none;
