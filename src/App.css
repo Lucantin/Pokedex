@@ -12,6 +12,7 @@ nav {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  background-color: red;
 }
 
 .navbar-img {
@@ -24,6 +25,7 @@ nav {
   margin: 0px auto;
   padding: 0 20px;
   align-items: center;
+  background-color: red;
 }
 
 .searchbar {
@@ -53,6 +55,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  background-color: red;
 }
 
 .pokedex-grid {
@@ -63,7 +66,7 @@ nav {
 
 .pokemon-card {
   display: flex;
-  box-shadow: 4px, 4px, 4px, (0, 0, 0, 0.25);
+  box-shadow: 4px 4px 4px rgb(252, 0, 0);
   border-radius: 3px;
 }
 
@@ -130,4 +133,18 @@ nav {
 .page-count{
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.pokemon-heart-btn {
+  border: none;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px black;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.not-found-text {
+  font-size: 1.25rem;
+  padding: 20px;
+  color: red;
 }
