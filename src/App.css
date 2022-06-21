@@ -112,3 +112,22 @@ nav {
   text-transform: capitalize;
 }
 
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+ 
+.direct-btn {
+  background-color: #0e6f9f;
+  border: none;
+  border-radius: 10px;
+  height: 35px;
+  color: white;
+  padding: 10px 10px;
+}
+
+.page-count{
+  margin-left: 10px;
+  margin-right: 10px;
+}
