@@ -62,12 +62,14 @@ nav {
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
+  background-color: red;
 }
 
 .pokemon-card {
   display: flex;
-  box-shadow: 4px 4px 4px rgb(252, 0, 0);
+  box-shadow: 4px 4px 4px rgb(0, 0, 0);
   border-radius: 3px;
+  background-color: white;
 }
 
 .pokemon-image {
@@ -146,5 +148,16 @@ nav {
 .not-found-text {
   font-size: 1.25rem;
   padding: 20px;
-  color: red;
+  color: black;
+  background-color: red;
+}
+
+.heart-fav {
+  background-color: #0e6f9f;
+  border: none;
+  border-radius: 10px;
+  height: 24px;
+  color: white;
+  padding: 10px 12px;
+  margin-left: 10px;
 }
