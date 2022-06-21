@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-* {
-  margin: 0px;
-}
-
 nav {
   height: 100px;
   display: flex;
